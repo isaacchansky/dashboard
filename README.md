@@ -108,6 +108,12 @@ make less    # Compile the site CSS from LESS files
 make uglify  # Compile and uglify the client-side JavaScript
 ```
 
+Heroku Deploy
+-------
+1. Add phantomJS buildpack: heroku buildpacks:add https://github.com/stomita/heroku-buildpack-phantomjs
+2. Add mongodb plugin (set environment variable WEBSERVICE_DATABASE to the mongodb url)
+3. deploy to heroku.
+
 
 Useful Resources
 -------
